@@ -1,0 +1,78 @@
+@font-face {font-family: "RockoUltraFLF"; src: url("//db.onlinewebfonts.com/t/569773497d938dfd9749337887f5edde.eot"); src: url("//db.onlinewebfonts.com/t/569773497d938dfd9749337887f5edde.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/569773497d938dfd9749337887f5edde.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/569773497d938dfd9749337887f5edde.woff") format("woff"), url("//db.onlinewebfonts.com/t/569773497d938dfd9749337887f5edde.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/569773497d938dfd9749337887f5edde.svg#RockoUltraFLF") format("svg"); }
+
+p { margin-block-start: unset; } 
+body {
+  background-color: #fff5fa;
+  font-family: RockoUltraFLF;
+  margin: unset;
+}
+
+.main_container { 
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+}
+.inner_container { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+  width: 1200px;
+}
+.socials { 
+display: flex;
+flex-direction: row;
+}
+.social_button {
+  margin: 10px;
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color:#ECE4FE;
+}
+
+.social_button_img { 
+  width: 100%;
+}
+.intro_1 { 
+color: #ffafde;
+font-size: 96px;
+}
+.intro_2 { 
+  display: flex;
+  flex-direction: row;
+  color: #ffafde;
+  font-size: 42px;
+}
+
+
+.second_container { 
+  padding: 30px;
+  background-color: #9EE3F9;
+}
+
+.projects { 
+  flex-direction: row;
+  display: flex;
+}
+
+.box { 
+  border-radius: 30px;
+  background-color: #fff5fa;
+  padding: 20px;
+  color: #8ac6d9;
+  font-size: 32px;
+}
+
+.box a { 
+  color: #ffa9d4;
+}
+.box a:hover { 
+  color: #ffa9d4;
+  opacity: 70%;
+}
+
+.box ul { 
+  font-size: 24px;
+}
